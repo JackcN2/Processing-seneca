@@ -63,7 +63,7 @@ class Poem{
             pushMatrix();
             translate(posX, posY+runner*15+i*15);
             rotate(rotation);
-            text((String)poem.get(start), posX, posY+runner*15+i*15);
+            text((String)poem.get(start), posX, posY+runner*200+i*200);
             popMatrix();
         }
     }
