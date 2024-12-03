@@ -18,7 +18,7 @@ int edgeReaction;       //reaction of sprite when it hits the edge
 MovingSprite(float posX,float posY,int er){
     velocity=new PVector(0,0);
     acceleration=new PVector(0,0);
-    angularSpeed=0;
+    angularSpeed=10;
     lastUpdate=millis();
     position=new PVector(posX,posY);
     initial=new PVector(posX,posY);
