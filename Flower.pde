@@ -9,7 +9,7 @@ class Flower extends MovingSprite{
 //change the next line of code to change the color of the dots
 //color(r,g,b,a);
 //r is red, g is green, b is blue and a is alpha (opacity)
-        co=color(random(0,255),random(0,255),random(0,255), random(50,200));
+        co=color(random(100,255),random(0,255),random(0,255), random(50,200));
         numPetals=int(random(5,8));
         super.setVelocity(0,random(10423,2000));
         super.setAngularSpeed(random(10,200));   
